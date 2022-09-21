@@ -2,6 +2,7 @@ const ALL_BREED = 'https://dog.ceo/api/breeds/list/all';
 
 const select = document.querySelector('.breeds');
 
+//Getting all breeds for selecction
 fetch(ALL_BREED)
     .then(function(response) {
         return response.json();
@@ -29,6 +30,7 @@ select.addEventListener('change', function(event) {
 const img = document.querySelector('.dog-img');
 const spinner = document.querySelector('.spinner');
 
+//fetch based on user selected breed
 function dogBreed(breed) {
     
     spinner.classList.add("show");
