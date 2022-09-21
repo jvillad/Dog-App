@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+}
+
+
+nav {
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-top: 0px;
+}
+.bg-white {
+    margin: 0px;
+}
+
+
+img {
+    height: 400px;
+    width: 400px;
+}
+
+img {
+    display:block;
+    max-width: 100%;
+}
+
+p {
+    margin: 0px;
+    
+}
+
+.split {
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-column-width: 200px;
+       -moz-column-width: 200px;
+            column-width: 200px;
+  }
+
+.container {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+    flex-direction: row;
+}
+
+main {
+    margin-right: 80px;
+    margin-left: 80px;
+}
+footer {
+    padding-top: 200px;
+    font-size: 8px;
+    margin-top: 5px;
+}
+body {
+    text-align: center;
+}
+
+@keyframes spin {
+    to {
+        transform: rotateZ(360deg)
+    }
+}
+
+.spinner {
+    font-size:  50px;
+    text-align: center;
+    animation: 2s spin linear infinite;
+    display: none;
+}
+
+
+.dog-img {
+    display: none;
+}
+.show {
+    display: block;
+}
